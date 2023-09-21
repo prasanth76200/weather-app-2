@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Roboto",sans-serif ;
+}
+body{
+  background-color: black;
+ 
+}
+.weather{
+  text-align: center;
+ width: 90%;
+ max-width: 470px;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  background: linear-gradient(160deg, rgb(255, 255, 255), rgb(0, 102, 255));
+  margin-bottom: 100px;
+}
+.search-result{
+  width :100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.search-result input{
+  border: none;
+  outline: 0;
+  padding: 20px 70px;
+  border-radius: 40px;
+  color: black;
+  font-size: 18px;
+  flex: 1;
+}
+
+.search-result button{
+
+ border: none;
+ outline: 0;
+ background-color: #ebfffc;
+border-radius: 100%;
+width: 50px;
+height:50px;
+cursor: pointer;
+margin-left: 3px;
+
+}.search-result img{
+ width: 16px;
+  
+}
+.weather-reports h1{
+font-size: 80px;  
+margin-top: -30px;
+
+}
+
+.weather-reports h2{
+font-size: 40px;  
+margin-top: -10px;
+font-weight: 600;
+margin-bottom: 50px;
+
+}
+.hum-per{
+  font-size: 20px;
+  font-family:"Roboto",sans-serif ;
+  margin-top: -6px;
+  margin-left: 10px;
+}
+
+
+.hum-wind{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 20px;
+ 
+}
+.col{
+  display:flex;
+  align-items: center;
+  text-align: left;
+
+}
+.col img{
+  width:40px;
+  margin-right: 3px;
+  
+}
+.wind-speed{
+  font-size: 20px;
+  font-family:"Roboto",sans-serif ;
+  margin-top: -6px;
+}
+.weather-reports{
+  display: none;
+}
+.error{
+  margin-right: 50px;
+  margin-top:20px;
+  color: red;
+  text-align: center;
+  display: none;
+}
